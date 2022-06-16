@@ -24,8 +24,8 @@ document.getElementById("increment").onclick = function(){
 // ===== Counter decresement only after click on dislike button =====
 
 document.getElementById("decrement").onclick = function(){
-    count -= 1;
-    document.getElementById("counter").innerHTML = count;
+    count += 1;
+    document.getElementById("counterDislike").innerHTML = count;
 }
 
 
