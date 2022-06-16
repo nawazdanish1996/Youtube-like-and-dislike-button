@@ -14,7 +14,16 @@ body{
 }
 
 #counter{
+    float: left;
+    width: 40%;
     text-align: center;
+    color: gray;
+}
+#counterDislike{
+    float: right;
+    width: 40%;
+    text-align: center;
+    color: gray;
 }
 
 .fa-solid{
